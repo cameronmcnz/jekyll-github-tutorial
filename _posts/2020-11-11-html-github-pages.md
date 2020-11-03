@@ -21,7 +21,7 @@ If you want to get started with GitHub Pages, here's what you need to do:
 The following GitHub Pages tutorial shows an example of how to set up a GitHub repo and render pure HTML pages.
 
 <div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="https://youtu.be/lEot4GNBLxE"></iframe>
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lEot4GNBLxE"></iframe>
 </div>
 
 
