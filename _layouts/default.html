@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179472407-1"></script>
+      <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         
+         gtag('config', 'UA-179472407-1');
+      </script>
+      <title>{{ page.title }}</title>
+	   
+{% if page.canonical %}
+<link rel="canonical" href="{{ page.canonical }}" />
+{% else %}
+<!-- This is the else for if canonical -->	   
+{% endif %}
+	   
+<!-- canonical attempt: {{ page.description }} -->
+{% if page.blurb %}
+<meta name="description" content="page.blurb"/>   
+{% else %}
+<meta name="description" content="Get UiPath Certified Fast with our online UiPath Practice tests, exam answers, study guides and tutorials. Learn RPA and quickly get your UiPath Associate and Developer Certification "/>   
+{% endif %}
+	   
+	   
+	   <!-- canonical attempt: {{ page.canonical }} -->
+	   <meta name="attempt" content="done" />	   
+	   <meta name="robots" content="noindex" />
+<meta name="description" content="Community sourced UiPath Associate Certification practice exams, study guides, braindumps, objectives and online tutorials. We help you get RPA certified fast."/>
+<meta name="keywords" content="UiPath Certification, UiPath Associate Exam, UiPath Developer Exam, UiPath Certification Questions, UiPath Certification Questions and Answers, UiPath Braindump"/>
+
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+	   
+	   
+ {% include boostrap-css.html %}        
+	   
+	   <style>
+	      
+	      
+	blockquote {
+	  background: #f9f9f9;
+	  border-left: 10px solid #ccc;
+	  margin: 1.5em 10px;
+	  padding: 0.5em 10px;
+
+	}
+	blockquote:before {
+	  color: #ccc;
+	  font-size: 4em;
+	  line-height: 0.1em;
+	  margin-right: 0.25em;
+	  vertical-align: -0.4em;
+	}
+	blockquote p {
+	  display: inline;
+	}
+	      
+         html { font-size: 12pt; }	
+         h1 { font-size: 1.09em; }
+         h2 { font-size: 1.07em; }
+         h3 { font-size: 1.05em; }
+         h4 { font-size: 1.03em; }
+         h5 { font-size: .83em; }
+         h6 { font-size: .75em; }
+         a, u {text-decoration: none; color:#0d47a1}  
+         a:hover {
+         background-color: #f9fbfd; color #4285F4;
+         }
+         .header, .footer {
+         background: white;
+         text-align: center;
+         }
+         .main {
+         background: white;
+         text-align: left;
+         }
+         .aside-1 {
+         background: white;
+         }
+         .aside-2 {
+         background: white;
+         }
+      </style>
+   <body>
+      <div class="container">
+         <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item active">
+                        <a class="nav-link" href="https://www.rpacertified.com/index.html">
+                        www.rpacertified.com</a>
+                     </li>
+
+                  </ul>
+               </div>
+            </nav>
+         </div>
+	      {% include common-cookie-row.html %}  
+         <div class="row">
+            <article class="main col col-12 col-sm-12  col-md-8 col-lg-9 order-1 order-sm-1 order-lg-1 mt-3">
+               <!--
+			   <div class="card">
+                  <div class="card-header">
+                     {{ page.title }}
+                  </div>
+                  <img src="/assets/background-small4.jpg" class="card-img-top" alt="uipath certification">
+                  <div class="card-body">
+				  </div>
+               </div>
+			   -->
+                     <!-- put a span in to stop the p tag from closing automatically -->
+                     {{ content }}   
+
+            </article>
+            <aside  class="aside-2 col col-12  col-sm-12  col-md-4 col-lg-3 order-2 order-sm-2 order-lg-2 mb-3">
+               <div class="card my-3" >
+                  <div class="card-header">
+                     <h4>Mock Exams</h4>
+                  </div>
+
+                  <div class="card-body">
+                     <h4 class="card-title">Our toughest set of advanced UiPath question and answer tests.</h4>
+                     <p class="card-text">Are you up for the challenge?</p>
+                     <a href="https://www.rpacertified.com/cert-questions-answers.html" class="btn btn-primary btn-sm">www.rpacertified.com</a>
+                  </div>
+               </div>
+		    
+  
+	
+
+               <div class="card mb-2">
+                  <div class="card-header">
+                    RPA Certified Posts
+                  </div>
+                  <div class="card-body">
+                     <p class="card-text">Here's a list of all the recent posts on the site.</p>
+	             <a href="https://www.rpacertified.com/2020/11/12/all-uipath-exam-questions.html">
+                     <img src="/assets/like-this-post.gif" class="img-fluid img-thumbnail mx-auto d-block" alt="All UiPath cert posts">
+                     </a>
+                     <a href="https://www.rpacertified.com/2020/11/12/all-uipath-exam-questions.html" class="btn btn-primary btn-sm">www.rpacertified.com</a>
+                  </div>
+               </div>
+
+            </aside>
+         </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+   </body>
+</html>
