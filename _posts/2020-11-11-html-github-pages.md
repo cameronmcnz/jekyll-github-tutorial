@@ -8,7 +8,6 @@ blurb: It's easy to render HTML in GitHub Pages. If you want to create some simp
 # How to Render Pure HTML in GitHub Pages
 
 If you want to get started with GitHub Pages, here's what you need to do:
-
 1. Register an account at GitHub
 2. Use the Add File button to add an HTML file to your GitHub repo
 3. Name the file with a .html extension and put some HTML to be rendered into it
