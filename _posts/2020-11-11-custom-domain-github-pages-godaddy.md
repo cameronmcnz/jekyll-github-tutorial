@@ -12,6 +12,6 @@ Want to look professional? That register a domain name and then set that as the 
 I registered on GoDaddy, and it was cheap. And it only took a few seconds to map my custom doman name to my GitHub Pages account. The following GitHub Pages Domain Name tutorial shows you how to do it.
 
 <div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="https://youtu.be/qJSM8oCB3mU"></iframe>
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qJSM8oCB3mU"></iframe>
 </div>
 
